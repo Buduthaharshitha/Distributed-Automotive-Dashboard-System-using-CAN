@@ -1,0 +1,53 @@
+# Build artifacts
+Debug/
+Release/
+*.o
+*.a
+*.so
+*.elf
+*.bin
+*.hex
+
+# Object files
+*.obj
+*.lo
+*.slo
+*.pic.o
+
+# IDE files
+.cproject
+.project
+.settings/
+*.launch
+RemoteSystemsTempFiles/
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.egg-info/
+dist/
+build/
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Dependency directories
+.venv/
+venv/
+env/
+ENV/
+
+# LSP/Language files
+.VSCodeCounter/
+
+# Compilation output
+*.su
+*.cyclo
+*.d
+*.list
+*.map
+
+# Cube IDE specific
+.mxproject
